@@ -39,7 +39,7 @@
               <block type="robot_delay" id="11" inline="true">
                 <value name="DELAY">
                   <block type="math_number" id="12">
-                    <field name="NUM">600</field>
+                    <field name="NUM">1000</field>
                   </block>
                 </value>
                 <next>
@@ -48,18 +48,14 @@
                       <block type="robot_delay" id="14" inline="true">
                         <value name="DELAY">
                           <block type="math_number" id="15">
-                            <field name="NUM">600</field>
+                            <field name="NUM">1000</field>
                           </block>
                         </value>
                         <next>
-                          <block type="oled_cleardisplay" id="16">
+                          <block type="oled_drawtext" id="17">
+                            <field name="TEXT">HI</field>
                             <next>
-                              <block type="oled_drawtext" id="17">
-                                <field name="TEXT">HI</field>
-                                <next>
-                                  <block type="movement_stop" id="18"></block>
-                                </next>
-                              </block>
+                              <block type="movement_stop" id="18"></block>
                             </next>
                           </block>
                         </next>
