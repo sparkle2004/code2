@@ -52,10 +52,10 @@
                           </block>
                         </value>
                         <next>
-                          <block type="oled_drawtext" id="17">
+                          <block type="oled_drawtext" id="16">
                             <field name="TEXT">HI</field>
                             <next>
-                              <block type="movement_stop" id="18"></block>
+                              <block type="movement_stop" id="17"></block>
                             </next>
                           </block>
                         </next>
